@@ -27,7 +27,7 @@ export const SearchPage = () => {
         <div className="col-5">
           <h4>Busqueda</h4>
           <hr />
-          <form onSubmit={onSearchSubmit}>
+          <form onSubmit={onSearchSubmit} aria-label="formHero">
             <input
               type="text"
               placeholder="Busca Heroe"

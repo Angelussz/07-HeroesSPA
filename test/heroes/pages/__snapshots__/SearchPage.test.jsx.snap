@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas en <SearchPage /> debe mostrar correctamente los valores por defecto 1`] = `
+<div>
+  <h1>
+    Busqua al heroe que quieras!
+  </h1>
+  <hr />
+  <div
+    class="row"
+  >
+    <div
+      class="col-5"
+    >
+      <h4>
+        Busqueda
+      </h4>
+      <hr />
+      <form
+        aria-label="formHero"
+      >
+        <input
+          autocomplete="off"
+          class="form-control"
+          name="searchText"
+          placeholder="Busca Heroe"
+          type="text"
+          value=""
+        />
+        <button
+          class="btn btn-outline-primary mt-1"
+        >
+          Buscar
+        </button>
+      </form>
+    </div>
+    <div
+      class="col-7"
+    >
+      <h4>
+        Resultados
+      </h4>
+      <hr />
+      <div
+        class="alert alert-primary animate__animated animate__fadeIn"
+      >
+        Search Hero
+      </div>
+      <div
+        class="alert alert-danger animate__animated animate__fadeIn"
+        style="display: none;"
+      >
+        No hay resultados con el heroe 
+        <b />
+         
+      </div>
+    </div>
+  </div>
+</div>
+`;
